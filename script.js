@@ -24,7 +24,7 @@ function initGame() {
   // Create card elements
   shuffledValues.forEach((value, index) => {
     const card = document.createElement('div');
-    card.classList.add('card');
+    card.classList.add('card');j
     card.dataset.value = value;
     card.addEventListener('click', flipCard);
     gameBoard.appendChild(card);
